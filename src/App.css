@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: antiquewhite;
+}
+.App {
+  text-align: center;
+  margin: 30px;
+}
