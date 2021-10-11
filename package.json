@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "node -r @babel/register src/tests/components.test.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +39,12 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/register": "^7.15.3",
+    "@babel/runtime-corejs2": "^7.15.4",
     "riteway": "^6.3.1"
   }
 }
